@@ -2190,8 +2190,10 @@ d-appendix {
 /*-- IMPORTANDO AS FONTES A SEREM UTILIZADAS --*/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Unica One');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One');
+@import url('https://fonts.googleapis.com/css2?family=Archivo');
+@import url('https://fonts.googleapis.com/css2?family=Archivo');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black');
 
 
 /*------------------------------------------------------------------------------------------------*/
@@ -2206,16 +2208,16 @@ html {
   --aside-size:      14px;
   --fig-cap-size:    14px;
   /*-- Principais Cores de Fontes --*/
-  --title-color:     #EDB00C; /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
-  --header-color:    #EDB00C; /*-- TÍTULOS DOS POSTS NA PÁG INICIAL --*/
-  --body-color:      #115A1D; /*-- TEXTOS DOS TEMAS --*/
-  --aside-color:     #115A1D;
-  --fig-cap-color:   #115A1D;
+  --title-color:     #006B94; /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
+  --header-color:    #006B94; /*-- TÍTULOS DOS POSTS NA PÁG INICIAL --*/
+  --body-color:      #384955; /*-- TEXTOS DOS TEMAS --*/
+  --aside-color:     #75AD4E;
+  --fig-cap-color:   #75AD4E;
   /*-- Especificando os Tipos de Fontes --*/
-  --heading-font:    'Unica One';
-  --mono-font:       'Inconsolata'; /*-- CÓDIGO NO POST --*/
-  --body-font:       'Inconsolata'; /*-- TODOS OS TEXTOS --*/
-  --navbar-font:     'Unica One';  
+  --heading-font:    'Archivo Black'; /* Antes era a Unica One */
+  --mono-font:       'Archivo'; /*-- CÓDIGO NO POST --*/ /* Antes era a Inconsolata */
+  --body-font:       'Archivo'; /*-- TODOS OS TEXTOS --*/
+  --navbar-font:     'Archivo Black';  
 }
 
 
@@ -2224,11 +2226,11 @@ html {
 
 
 .distill-site-header {
-  --title-size:       30px;    /*-- TAMANHO DO NOME DO BLOG --*/
-  --text-color:       #EDB00C; /*-- COR DO TEXTO SEM O MOUSE --*/
-  --text-size:        18px;    /*-- TAMANHO DOS ITENS --*/
+  --title-size:       25px;    /*-- TAMANHO DO NOME DO BLOG --*/
+  --text-color:       #006B94; /*-- COR DO TEXTO SEM O MOUSE --*/
+  --text-size:        14px;    /*-- TAMANHO DOS ITENS --*/
   --hover-color:      white;   /*-- COR DO TEXTO AO PASSAR O MOUSE --*/
-  --bkgd-color:       #115A1D; /*-- COR DE FUNDO DO CABEÇALHO --*/
+  --bkgd-color:       #75AD4E; /*-- COR DE FUNDO DO CABEÇALHO --*/
 }
 
 
@@ -2244,9 +2246,9 @@ html {
 /*-- CABEÇALHO DOS ARTIGOS --*/
 d-byline {
   --heading-size:    14px;    /*-- NO POST, autor, afiliação, data --*/
-  --heading-color:   #EDB00C; /*-- NO POST, autor, afiliação, data --*/
+  --heading-color:   #006B94; /*-- NO POST, autor, afiliação, data --*/
   --body-size:       14px;    /*-- NO POST, autor, afiliação, data --*/
-  --body-color:      #115A1D; /*-- NO POST, autor, afiliação, data --*/
+  --body-color:      #384955; /*-- NO POST, autor, afiliação, data --*/
 }
 
 
@@ -2271,7 +2273,7 @@ d-byline a.name {
 
 d-title p {
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;
   font-size:   14px;
 }
 
@@ -2282,7 +2284,7 @@ d-title p {
 
 d-article p, d-article ul, d-article ol, d-article blockquote {
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;
   font-size:   14px;
 }
 
@@ -2293,7 +2295,7 @@ d-article p, d-article ul, d-article ol, d-article blockquote {
 
 .posts-list .metadata {
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;
   font-size:   14px;
 }
 
@@ -2303,17 +2305,17 @@ d-article p, d-article ul, d-article ol, d-article blockquote {
 
 
 body, .posts-list .post-preview p, .posts-list .description p {
-  font-family: 'Inconsolata';
+  font-family: 'Archivo';
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955; /* Cor da descrição do post na página inicial */
   font-size:   14px;
 }
 
 
 h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h2 {
-  font-family: 'Unica One';
+  font-family: 'Archivo Black';
   font-weight: bold;
-  color:       #EDB00C;
+  color:       #006B94;/* Cor do título do post*/
   font-size:   26px;
 }
 
@@ -2323,9 +2325,9 @@ h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h
 
 
 .nav-search {
-  font-family: 'Inconsolata';
+  font-family: 'Archivo';
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;/* Cor da fonte ao digitar na barra de pesquisa */
   font-size:   14px;
 }
 
@@ -2341,8 +2343,8 @@ h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        18px;
-  --hover-color:      #115A1D;
-  --bkgd-color:       #EDB00C;
+  --hover-color:      #75AD4E;
+  --bkgd-color:       #006B94;
 }
 
 
@@ -2524,6 +2526,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   <script src="../../site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="../../site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+<!-- Código em JS que substitui o "Search..." da barra de pesquisa por "Buscar..." -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var searchBox = document.querySelector('#distill-search');
@@ -2532,6 +2535,42 @@ d-appendix d-footnote-list a.footnote-backlink {
     }
   });
 </script>
+<!-- Código em JS que traduz a data de publicação no início do blog -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Altera os rótulos dos autores
+    var authorLabels = document.querySelectorAll('.dt-author');
+    authorLabels.forEach(function(authorLabel) {
+      authorLabel.textContent = '' + authorLabel.textContent;
+    });
+    
+     // Altera os rótulos das afiliações
+    var affiliationLabels = document.querySelectorAll('.dt-affiliation');
+    affiliationLabels.forEach(function(affiliationLabel) {
+      affiliationLabel.textContent = 'Afiliação: ' + affiliationLabel.textContent;
+    });
+    
+    // Altera os rótulos das datas
+    var dateLabels = document.querySelectorAll('.publishedDate');
+    dateLabels.forEach(function(dateLabel) {
+      dateLabel.textContent = 'Data: ' + dateLabel.textContent;
+    });
+
+    // Alterar o formato da data, se necessário
+    dateLabels.forEach(function(dateElement) {
+      var dateText = dateElement.textContent.replace('Data: ', ''); // Remove o prefixo "Data: "
+    // Supondo que a data esteja no formato "Month Day, Year"
+      var date = new Date(dateText);
+      var formattedDate = date.toLocaleDateString('pt-BR', {
+        day: '2-digit',
+        month: 'long',
+        year: 'numeric'
+      });
+      dateElement.textContent = '' + formattedDate;
+    });
+  });
+</script>
+
 <!--/radix_placeholder_site_in_header-->
 
 
@@ -2564,9 +2603,17 @@ PESQUISADORES
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">BRUNO LUPPE</span>
-<span class="nav-dropdown-header">PAULO AUGUSTO</span>
-<span class="nav-dropdown-header">VICTOR VALERIO</span>
+<a href="../../pesquisadores/admir_antonio.html">ADMIR ANTONIO</a>
+<a href="../../pesquisadores/andre_luis.html">ANDRÉ LUIS RIBEIRO</a>
+<a href="../../pesquisadores/andre_luiz.html">ANDRÉ LUIZ MEDEIROS</a>
+<a href="../../pesquisadores/bruno_luppe.html">BRUNO LUPPE</a>
+<a href="../../pesquisadores/edson_paulo.html">EDSON PAULO</a>
+<a href="../../pesquisadores/fernando_salgueiro.html">FERNANDO SALGUEIRO</a>
+<a href="../../pesquisadores/moises_diniz.html">MOISÉS DINIZ</a>
+<a href="../../pesquisadores/paulo_augusto.html">PAULO AUGUSTO</a>
+<a href="../../pesquisadores/rafael_morais.html">RAFAEL MORAIS</a>
+<a href="../../pesquisadores/victor_valerio.html">VICTOR VALÉRIO</a>
+<a href="../../pesquisadores/weslem_rodrigues.html">WESLEM RODRIGUES</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2576,8 +2623,8 @@ PROJETOS
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">PROJETO 1</span>
-<span class="nav-dropdown-header">PROJETO 2</span>
+<span class="nav-dropdown-header"> </span>
+<span class="nav-dropdown-header"> </span>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2587,8 +2634,8 @@ PARCERIAS
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">PARCERIAS 1</span>
-<span class="nav-dropdown-header">PARCERIAS 2</span>
+<span class="nav-dropdown-header"> </span>
+<span class="nav-dropdown-header"> </span>
 </div>
 </div>
 <span class="nav-dropdown-header">DASHBOARD</span>
@@ -2619,7 +2666,7 @@ PARCERIAS
 <p>TEXTO GENÉRICO</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'>#Exemplo de documento.</span></span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'>#Exemplo de documento.dasdsadsa</span></span>
 <span><span class='fl'>1</span><span class='op'>+</span><span class='fl'>1</span></span></code></pre>
 </div>
 <pre><code>[1] 2</code></pre>

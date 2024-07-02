@@ -4,8 +4,10 @@
 /*-- IMPORTANDO AS FONTES A SEREM UTILIZADAS --*/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Unica One');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One');
+@import url('https://fonts.googleapis.com/css2?family=Archivo');
+@import url('https://fonts.googleapis.com/css2?family=Archivo');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black');
 
 
 /*------------------------------------------------------------------------------------------------*/
@@ -20,16 +22,16 @@ html {
   --aside-size:      14px;
   --fig-cap-size:    14px;
   /*-- Principais Cores de Fontes --*/
-  --title-color:     #EDB00C; /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
-  --header-color:    #EDB00C; /*-- TÍTULOS DOS POSTS NA PÁG INICIAL --*/
-  --body-color:      #115A1D; /*-- TEXTOS DOS TEMAS --*/
-  --aside-color:     #115A1D;
-  --fig-cap-color:   #115A1D;
+  --title-color:     #006B94; /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
+  --header-color:    #006B94; /*-- TÍTULOS DOS POSTS NA PÁG INICIAL --*/
+  --body-color:      #384955; /*-- TEXTOS DOS TEMAS --*/
+  --aside-color:     #75AD4E;
+  --fig-cap-color:   #75AD4E;
   /*-- Especificando os Tipos de Fontes --*/
-  --heading-font:    'Unica One';
-  --mono-font:       'Inconsolata'; /*-- CÓDIGO NO POST --*/
-  --body-font:       'Inconsolata'; /*-- TODOS OS TEXTOS --*/
-  --navbar-font:     'Unica One';  
+  --heading-font:    'Archivo Black'; /* Antes era a Unica One */
+  --mono-font:       'Archivo'; /*-- CÓDIGO NO POST --*/ /* Antes era a Inconsolata */
+  --body-font:       'Archivo'; /*-- TODOS OS TEXTOS --*/
+  --navbar-font:     'Archivo Black';  
 }
 
 
@@ -38,11 +40,11 @@ html {
 
 
 .distill-site-header {
-  --title-size:       30px;    /*-- TAMANHO DO NOME DO BLOG --*/
-  --text-color:       #EDB00C; /*-- COR DO TEXTO SEM O MOUSE --*/
-  --text-size:        18px;    /*-- TAMANHO DOS ITENS --*/
+  --title-size:       25px;    /*-- TAMANHO DO NOME DO BLOG --*/
+  --text-color:       #006B94; /*-- COR DO TEXTO SEM O MOUSE --*/
+  --text-size:        14px;    /*-- TAMANHO DOS ITENS --*/
   --hover-color:      white;   /*-- COR DO TEXTO AO PASSAR O MOUSE --*/
-  --bkgd-color:       #115A1D; /*-- COR DE FUNDO DO CABEÇALHO --*/
+  --bkgd-color:       #75AD4E; /*-- COR DE FUNDO DO CABEÇALHO --*/
 }
 
 
@@ -58,9 +60,9 @@ html {
 /*-- CABEÇALHO DOS ARTIGOS --*/
 d-byline {
   --heading-size:    14px;    /*-- NO POST, autor, afiliação, data --*/
-  --heading-color:   #EDB00C; /*-- NO POST, autor, afiliação, data --*/
+  --heading-color:   #006B94; /*-- NO POST, autor, afiliação, data --*/
   --body-size:       14px;    /*-- NO POST, autor, afiliação, data --*/
-  --body-color:      #115A1D; /*-- NO POST, autor, afiliação, data --*/
+  --body-color:      #384955; /*-- NO POST, autor, afiliação, data --*/
 }
 
 
@@ -85,7 +87,7 @@ d-byline a.name {
 
 d-title p {
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;
   font-size:   14px;
 }
 
@@ -96,7 +98,7 @@ d-title p {
 
 d-article p, d-article ul, d-article ol, d-article blockquote {
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;
   font-size:   14px;
 }
 
@@ -107,7 +109,7 @@ d-article p, d-article ul, d-article ol, d-article blockquote {
 
 .posts-list .metadata {
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;
   font-size:   14px;
 }
 
@@ -117,17 +119,17 @@ d-article p, d-article ul, d-article ol, d-article blockquote {
 
 
 body, .posts-list .post-preview p, .posts-list .description p {
-  font-family: 'Inconsolata';
+  font-family: 'Archivo';
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955; /* Cor da descrição do post na página inicial */
   font-size:   14px;
 }
 
 
 h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h2 {
-  font-family: 'Unica One';
+  font-family: 'Archivo Black';
   font-weight: bold;
-  color:       #EDB00C;
+  color:       #006B94;/* Cor do título do post*/
   font-size:   26px;
 }
 
@@ -137,9 +139,9 @@ h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h
 
 
 .nav-search {
-  font-family: 'Inconsolata';
+  font-family: 'Archivo';
   font-weight: bold;
-  color:       #115A1D;
+  color:       #384955;/* Cor da fonte ao digitar na barra de pesquisa */
   font-size:   14px;
 }
 
@@ -155,8 +157,8 @@ h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        18px;
-  --hover-color:      #115A1D;
-  --bkgd-color:       #EDB00C;
+  --hover-color:      #75AD4E;
+  --bkgd-color:       #006B94;
 }
 
 
