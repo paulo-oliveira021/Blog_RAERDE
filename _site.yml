@@ -67,10 +67,17 @@ navbar:
 
 output:
   distill::distill_article:
+<<<<<<< HEAD
     self_contained: false
+=======
+>>>>>>> c09cc3ce059053e7d2336a22d256c584bb45db45
     includes:
       in_header:
       - 'barra_pesquisa.html'
       - 'modificar_publicacao3.html'
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> c09cc3ce059053e7d2336a22d256c584bb45db45
 theme: modelo_final.css

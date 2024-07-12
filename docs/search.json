@@ -5,7 +5,11 @@
       "title": " ",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+<<<<<<< HEAD
       "last_modified": "2024-07-02T17:43:52-03:00"
+=======
+      "last_modified": "2024-07-02T11:15:51-03:00"
+>>>>>>> c09cc3ce059053e7d2336a22d256c584bb45db45
     }
   ],
   "collections": ["posts/posts.json"]
