@@ -41,9 +41,9 @@ html {
 
 .distill-site-header {
   --title-size:       25px;    /*-- TAMANHO DO NOME DO BLOG --*/
-  --text-color:       #006B94; /*-- COR DO TEXTO SEM O MOUSE --*/
+  --text-color:       white; /*-- COR DO TEXTO SEM O MOUSE --*/
   --text-size:        14px;    /*-- TAMANHO DOS ITENS --*/
-  --hover-color:      white;   /*-- COR DO TEXTO AO PASSAR O MOUSE --*/
+  --hover-color:      #006B94;   /*-- COR DO TEXTO AO PASSAR O MOUSE --*/
   --bkgd-color:       #75AD4E; /*-- COR DE FUNDO DO CABEÇALHO --*/
 }
 
@@ -168,9 +168,3 @@ d-appendix {
   --text-size:       0.8em;
   --text-color:      rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
