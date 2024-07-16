@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "Maiores fornecedores de placas solares por mesorregião em Minas Gerais"
 description: |
   Dados referentes ao ano de 2023.
@@ -16,24 +15,13 @@ author:
     url: ../../pesquisadores/victor_valerio.html
     affiliation: "UNIFEI"
     affiliation_url: https://unifei.edu.br
-institution:
-date: 07-10-2024
-=======
-title: "Exemplo de publicação"
-description: |
-  Descrição da publicação.
-author: 
-  - name: "Autor da publicação"
-    affiliation: "Instituicao do autor"
-institution:
-date: 05-15-2024
->>>>>>> c09cc3ce059053e7d2336a22d256c584bb45db45
+date: 2024-05-22
+
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-<<<<<<< HEAD
 [Inserir texto]
 
 ```{r setup, include=FALSE}
@@ -55,12 +43,3 @@ meso_mapa <- geobr::read_meso_region(code_meso = 'MG') %>%
 ```{r echo=FALSE}
 meso_mapa
 ```
-=======
-TEXTO GENÉRICO
-
-```{r}
-#Exemplo de documento.dasdsadsa
-1+1
-```
-
->>>>>>> c09cc3ce059053e7d2336a22d256c584bb45db45
